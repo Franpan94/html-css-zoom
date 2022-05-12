@@ -38,7 +38,8 @@ main{
     padding-top: 60px;
     display: flex;
     flex-wrap: wrap;
-    
+    height: 100vh;
+    overflow: auto;
 }
 
 .photo{
@@ -62,6 +63,16 @@ footer{
     background-color: rgb(34, 34, 34);
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.start{
+    display: flex;
 }
 
 
@@ -82,5 +93,30 @@ footer{
     padding-left: 13px;
 }
 
+.share{
+    font-size: 20px;
+    color: green;
+    margin-left: 49px; 
+}
+
+.manage{
+    font-size: 20px;
+    color: white;
+    margin-left: 49px; 
+}
+
+.comment{
+    color: white;
+    padding-left: 45px;
+}
+
+.end{
+    color: red;
+    background-color: rgb(74, 74, 74);
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
 
 
