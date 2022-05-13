@@ -30,7 +30,6 @@ main{
     background-color: black;
     padding-left: 25px;
     padding-right: 25px;
-
     display: flex;
     flex-wrap: wrap;
     height: calc(100vh - 125px); 
@@ -111,7 +110,7 @@ footer{
 .end{
     color: red;
     background-color: rgb(74, 74, 74);
-    height: 10vh;
+    height: 75px;
     display: flex;
     align-items: center;
     padding: 5px;
