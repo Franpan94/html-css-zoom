@@ -5,15 +5,10 @@
 }
 
 header{
-    height: 10vh;
-    background-color: black;
+    height: 50px;
     display: flex;
     justify-content: flex-end;
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-    top: 0;
-    right: 0;
+    background-color: black;
 }
 
 a{
@@ -35,10 +30,10 @@ main{
     background-color: black;
     padding-left: 25px;
     padding-right: 25px;
-    padding-top: 60px;
+
     display: flex;
     flex-wrap: wrap;
-    height: 100vh;
+    height: calc(100vh - 125px); 
     overflow: auto;
 }
 
@@ -59,20 +54,17 @@ main{
 }
 
 footer{
-    height: 10vh;
+    height: 75px;
     background-color: rgb(34, 34, 34);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    z-index: 1;
+    flex-shrink: 0;
 }
 
 .start{
     display: flex;
+    flex-shrink: 0;
 }
 
 
@@ -96,18 +88,24 @@ footer{
 .share{
     font-size: 20px;
     color: green;
-    margin-left: 49px; 
+    margin-left: 50px; 
 }
 
 .manage{
     font-size: 20px;
     color: white;
-    margin-left: 49px; 
+    margin-left: 50px; 
 }
 
 .comment{
     color: white;
     padding-left: 45px;
+}
+
+.video{
+    margin-left: 40px;
+    font-size: 20px;
+    color: white;
 }
 
 .end{
